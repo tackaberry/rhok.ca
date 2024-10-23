@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Random Hacks of Kindness</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 29 Jan 2019 03:10:03 +0000</lastBuildDate>
+	<language>en-CA</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<item>
+		<title>Crafting a Hackathon Project for Success</title>
+		<link>/crafting-a-hackathon-project-for-success/</link>
+		
+		<dc:creator><![CDATA[Brett Tackaberry]]></dc:creator>
+		<pubDate>Tue, 29 Jan 2019 03:04:58 +0000</pubDate>
+				<category><![CDATA[Uncategorised]]></category>
+		<guid isPermaLink="false">/?p=1004</guid>
+
+					<description><![CDATA[This article is intended to help&#160;organizations be successful in a social-good hackathon. Its a mix of experience and vision, and, by no means intended to be a hard-and-fast rule. Using these guidelines will help you be more successful. Types of organizations that are a good fit Localized effort of a wider-scope problem: There are many...]]></description>
+										<content:encoded><![CDATA[
+<p>This article is intended to help&nbsp;organizations be successful in a social-good hackathon. Its a mix of experience and vision, and, by no means intended to be a hard-and-fast rule. Using these guidelines will help you be more successful.</p>
+
+
+
+<h3 class="wp-block-heading">Types of organizations that are a good fit</h3>
+
+
+
+<ul class="wp-block-list"><li><strong>Localized effort of a wider-scope problem</strong>: There are many social issues that affect citizens across the city and country and around the world. Solving a problem that has the potential to propagate and give value to others will have the most impact. <em>For example, imagine a project of listing free recreational activities on a map could be used for community organizations across a city but likely applicable across the country too.&nbsp;</em></li><li><strong>Well-connected with city-wide and nation-wide counter parts</strong>: To ensure a project can have the most impact to the organization and outside the scope of the organization, it helps to connect with other similar organizations to share news of the hackathon as you may gather some lessons learned or other supporters to continue the projects after the hackathon. At the very least we may find users or testers of the software. <em>For example, a health community centre would likely have related, interested parties across the city, country and connecting in advance is a good way to gather requirements to make a product suitable for a wider audience.&nbsp;</em></li><li><strong>Affinity for technology experimentation</strong>: It helps when you or your organization understands the opportunity that exists in experimenting with technology and adopting new concepts.&nbsp; It is most important for the organization to understand the value of access to smart people who like to experiment and do good with technology but having an appetite with the organization is a plus.&nbsp;</li><li><strong>Organizations that value Collaboration, Transparency, Sharing &amp; Empowerment</strong>: Seems obvious but its not a given.&nbsp; It may be ingrained in people if not in the organizational DNA. If the values sit with the people and not the organization, the hackathon may be a success but the sustainability of the project might be at risk.</li></ul>
+
+
+
+<h3 class="wp-block-heading">What makes up a good project</h3>
+
+
+
+<ul class="wp-block-list"><li>The project itself should be Specific, Measurable, Attainable, Relevant, Timely.</li><li>The project owner will want to present well to garner support.</li><li>The project itself should be technically challenging and somewhat unique.</li><li>The technology doesn&#8217;t exist and if it does the project owner needs to research and evaluate precedent. We don&#8217;t want to re-invent the wheel, but more importantly, we want to promote concepts of sharing and collaboration.</li><li>The project is a concept that can be shared with counterparts across the country or around the world. Build it to be shared and make it sharable by design.</li><li>The project should be operational and help support programming- as contrasted to administrative tasks or fundraising tasks. While these tasks are important, the impact on the cause is less measurable.</li><li>A project that can continue to grow and evolve.</li><li>A project should be architected and named such that it can be shared with other, similar organizations. <em>For example, a project name or project nomenclature shouldn&#8217;t include the city name or a building name or an organization name but rather an appropriate name for the app.</em></li></ul>
+
+
+
+<h3 class="wp-block-heading">What projects don&#8217;t work well</h3>
+
+
+
+<ul class="wp-block-list"><li>Website design or redesign</li><li>Social media properties</li><li>Fundraising or marketing projects</li><li>Games &#8211; these projects are too big</li></ul>
+
+
+
+<h3 class="wp-block-heading">Some examples of projects that worked well</h3>
+
+
+
+<ul class="wp-block-list"><li>Directory of businesses. In this case used for the Social Enterprise sector. See <a href="/projects/ottawa-social-enterprise-marketplace/">We All Profit: Ottawa Social Enterprise MarketPlace</a> and <a rel="noreferrer noopener" href="https://WeAllProfit.ca/" target="_blank">WeAllProfit.ca</a>. This particular project started with a team of 8 and then reduced to 4 to get completed. This project is deployed for the organization that started and has been shared to other jurisdictions.</li><li>A simple tool that does one thing such as <a href="/projects/data-integrations-for-ten-oaks-project/">Data Integrations for Ten Oaks Project</a>.  This simple tool extracts data from one system and loads it into Salesforce.  This project started with a team of 4 and reduced to 1 to get deployed.</li><li>Mapping projects are usually a good fit.  eg Plotting locations on google maps (or OpenStreetMap).  The requirements are easily communicated, foundational technology and toolkits are readily available and participants can really make the most out of the weekend.  See <a href="/projects/project-5-ottawa-community-housing-foundation/">Ottawa Community Housing Foundation – Directory of Recreation Activities and Locations</a> and a <a href="/projects/project-5-fairvote-ca-canvasing-tool/">FairVote.ca Canvasing Tool</a>.  The projects are ideal for 4 &#8211; 6 people but really need a mapping expert (can be google maps as well as open street map) to be successful.</li><li>IoT (Internet of Things, devices and sensors connected to the internet) projects are possible and can be successful but need a lot of preparation in advance.  They tend to be successful because they attract the best talent and the advance preparation certainly helps. Advance preparation would include procuring all the hardware necessary and enlisting a champion/expert to ensure requirements are complete.  See <a href="/projects/project-1-growing-futures-hydroponic-monitoring-system/">Growing Futures Hydroponic Monitoring System</a> and <a href="/projects/hivesense-the-beehive-iot-project/">HiveSense: The Beehive IoT Project</a>. These projects need diverse members and the participants will likely split up into these possible teams: hardware, embedded systems software, cloud systems software, and maybe visualization.</li><li>Platform based projects &#8211; eg. those built on WordPress, Drupal or Moodle -are also a good fit because you can leverage existing technology via plugins and themes and there are a lot of developers. See <a href="/projects/project-6-refugee-sponsorship-support-program/">Refugee Sponsorship Support Program – Lawyer Onboarding</a> and <a href="/projects/project-2-gourmet-express-order-platform/">Gourmet Express – Order Platform</a>. These projects can support larger teams because there requirements in design and development but also content.</li></ul>
+
+
+
+<h3 class="wp-block-heading">What can be done to ensure sustainability</h3>
+
+
+
+<p>Organizations can follow some of these ideas to help project continuation after the hackathon.</p>
+
+
+
+<p>A few key concepts would be:</p>
+
+
+
+<ul class="wp-block-list"><li>Preparation in advance to secure funding for ongoing development to pay or hire developers to finish the project.</li><li>Look for grants before and after.</li><li>Investigate partnerships that can enable funding for a project.</li><li>Aim to have a prototype that can be used in conjunction with funding.</li><li>Acquire contact information of team members who are willing to stay involved.</li><li>Engage with developers and follow up. Have initial meeting on the books during the weekend. Have follow up meetings in-person or in the Slack channel.</li><li>Stay connected on Slack.</li></ul>
+
+
+
+<p>Organizers can also put effort into building the infrastructure (technical and otherwise) that will support the projects as they go from hackathon weekend to further development:</p>
+
+
+
+<ul class="wp-block-list"><li>Encourage (very strongly) developers to use github (or equivalent) for code sharing.</li><li>Have infrastructure available to host apps.&nbsp; A relationship with a cloud provider such as AWS goes a long way to provide a technologically advanced platform for development. A secondary benefit is the organizers have the resulting code and infrastructure after developers leave the weekend.&nbsp; We have traditionally provided ongoing free hosting for all RHoK projects. We do this through an AWS sponsorship.</li><li>Connect with local Civic Tech group to provide ongoing support and venue for working on projects. Also a good place to find extra help or other talent to bring project to completion.</li><li>Find a company who may want to adopt project after hackathon weekend.&nbsp; This concept needs to be explored further, but we have had interest in this.</li></ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Making a Successful Social-Good Hackathon: Crafting Projects for Success</title>
+		<link>/the-principles-of-a-successful-social-good-hackathon/</link>
+		
+		<dc:creator><![CDATA[Brett Tackaberry]]></dc:creator>
+		<pubDate>Thu, 10 May 2018 03:23:28 +0000</pubDate>
+				<category><![CDATA[Toolkit]]></category>
+		<guid isPermaLink="false">/?p=846</guid>
+
+					<description><![CDATA[This article is intended to help  organizers and participating organizations be successful in a social-good hackathon. Its a mix of experience and vision, and, by no means intended to be a hard-and-fast rule. Using these guidelines will help you be more successful. Types of organizations that are a good fit Localized effort of a wider-scoped...]]></description>
+										<content:encoded><![CDATA[<p>This article is intended to help  organizers and participating organizations be successful in a social-good hackathon. Its a mix of experience and vision, and, by no means intended to be a hard-and-fast rule. Using these guidelines will help you be more successful.</p>
+<h3>Types of organizations that are a good fit</h3>
+<ul>
+<li><strong>Localized effort of a wider-scoped problem</strong>: There are many social issues that affect citizens across the city and country and around the world. Solving a problem that has the potential to propagate and give value to others will have the most impact. As an organizer, determining this is straight forward with a simple google search. <em>For example, imagine a project of listing free recreational activities on a map could be used for community organizations across a city but likely applicable across the country too. </em></li>
+<li><strong>Well-connected with city-wide and nation-wide counter parts</strong>: To ensure a project can have the most impact to the organization and outside the scope of the organization, it helps to connect with other similar organizations to share news of the hackathon as you may gather some lessons learned or other supporters to continue the projects after the hackathon. At the very least we may find users or testers of the software. As an organizer, this can be determined with a simple conversation. <em>For example, a health community centre would likely have related, interested parties across the country and connecting in advance is a good way to gather requirements to make a product suitable for a wider audience. </em></li>
+<li><strong>Affinity for technology experimentation</strong>: It helps when the organization understands the opportunity that exists in experimenting with technology and adopting new concepts.  It is most important for the organization to understand the value of access to smart people who like to experiment and do good with technology but having an appetite with the organization is a plus. As an organizer, as above, this can be determined with a simple conversation.</li>
+<li><strong>Organizations that value Collaboration, Transparency, Sharing &amp; Empowerment</strong>: Seems obvious but its not a given.  It may be ingrained in people if not in the organizational DNA. As an organizer, this will be difficult to ascertain directly but actions and attitude will show it. If the values sit with the people and not the organization, the hackathon may be a success but the sustainability of the project would be at risk.</li>
+</ul>
+<h3>What makes up a good project</h3>
+<ul>
+<li>The project itself should be Specific, Measurable, Attainable, Relevant, Timely.</li>
+<li>The project owner will want to present well to garner support.</li>
+<li>The project itself should be technically challenging and somewhat unique.</li>
+<li>The technology doesn&#8217;t exist and if it does the project owner needs to research and evaluate precedent. We don&#8217;t want to re-invent the wheel, but more importantly, we want to promote concepts of sharing and collaboration.</li>
+<li>The project is a concept that can be shared with counterparts across the country or around the world. Build it to be shared and make it sharable by design.</li>
+<li>The project should be operational and help support programming- as contrasted to administrative tasks or fundraising tasks. While these tasks are important, the impact on the cause is less measurable.</li>
+<li>A project that can continue to grow and evolve.</li>
+<li>A project should be architected and named such that it can be shared with other, similar organizations. <em>For example, a project name or project nomenclature shouldn&#8217;t include the city name or a building name or an organization name but rather an appropriate name for the app.</em></li>
+</ul>
+<h3>What projects don&#8217;t work well</h3>
+<ul>
+<li>Website design or redesign</li>
+<li>Social media properties</li>
+<li>Fundraising or marketing projects</li>
+<li>Games &#8211; these projects are too big</li>
+</ul>
+<h3>Some examples of projects that worked well</h3>
+<ul>
+<li>Directory of businesses. In this case used for the Social Enterprise sector. See <a href="/projects/ottawa-social-enterprise-marketplace/">We All Profit: Ottawa Social Enterprise MarketPlace</a> and <a href="https://WeAllProfit.ca/" target="_blank" rel="noopener">WeAllProfit.ca</a>. This particular project started with a team of 8 and then reduced to 4 to get completed. This project is deployed for the organization that started and has been shared to other jurisdictions.</li>
+<li>A simple tool that does one thing such as <a href="/projects/data-integrations-for-ten-oaks-project/">Data Integrations for Ten Oaks Project</a>.  This simple tool extracts data from one system and loads it into Salesforce.  This project started with a team of 4 and reduced to 1 to get deployed.</li>
+<li>Mapping projects are usually a good fit.  The requirements are easily communicated, foundational technology and toolkits are readily available and participants can really make the most out of the weekend.  See <a href="/projects/project-5-ottawa-community-housing-foundation/">Ottawa Community Housing Foundation – Directory of Recreation Activities and Locations</a> and a <a href="/projects/project-5-fairvote-ca-canvasing-tool/">FairVote.ca Canvasing Tool</a>.  The projects are ideal for 4 &#8211; 6 people but really need a mapping expert (can be google maps as well as open street map) to be successful.</li>
+<li>IoT projects are possible and can be successful but need a lot of preparation in advance.  They tend to be successful because they attract the best talent and the advance preparation certainly helps. Advance preparation would include procuring all the hardware necessary and enlisting a champion/expert to ensure requirements are complete.  See <a href="/projects/project-1-growing-futures-hydroponic-monitoring-system/">Growing Futures Hydroponic Monitoring System</a> and <a href="/projects/hivesense-the-beehive-iot-project/">HiveSense: The Beehive IoT Project</a>. These projects need diverse members and the participants will likely split up into these possible teams: hardware, embedded systems software, cloud systems software, and maybe visualization.</li>
+<li>Platform based projects &#8211; eg. those built on WordPress, Drupal or Moodle -are also a good fit because you can leverage existing technology via plugins and themes and there are a lot of developers. See <a href="/projects/project-6-refugee-sponsorship-support-program/">Refugee Sponsorship Support Program – Lawyer Onboarding</a> and <a href="/projects/project-2-gourmet-express-order-platform/">Gourmet Express – Order Platform</a>. These projects can support larger teams because there requirements in design and development but also content.</li>
+</ul>
+<h3>What can be done to ensure sustainability</h3>
+<p>While the sustainability of a project lies mainly with the participating organization, hackathon organizers are in a key position to coach the organizations.</p>
+<p>A few key concepts would be:</p>
+<ul>
+<li>Preparation in advance to secure funding for ongoing development to pay or hire developers to finish the project.</li>
+<li>Look for grants before and after.</li>
+<li>Investigate partnerships that can enable funding for a project.</li>
+<li>Aim to have a prototype that can be used in conjunction with funding.</li>
+<li>Acquire contact information of team members who are willing to stay involved.</li>
+<li>Engage with developers and follow up. Have initial meeting on the books during the weekend. Have follow up meetings in-person or in the Slack channel.</li>
+<li>Stay connected on Slack.</li>
+</ul>
+<p>Organizers can also put effort into building the infrastructure (technical and otherwise) that will support the projects as they go from hackathon weekend to further development:</p>
+<ul>
+<li>Encourage (very strongly) developers to use github (or equivalent) for code sharing.</li>
+<li>Have infrastructure available to host apps.  A relationship with a cloud provider such as AWS goes a long way to provide a technologically advanced platform for development. A secondary benefit is the organizers have the resulting code and infrastructure after developers leave the weekend.  We have traditionally provided ongoing free hosting for all RHoK projects. We do this through an AWS sponsorship.</li>
+<li>Connect with local Civic Tech group to provide ongoing support and venue for working on projects. Also a good place to find extra help or other talent to bring project to completion.</li>
+<li>Find a company who may want to adopt project after hackathon weekend.  This concept needs to be explored further, but we have had interest in this.</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
