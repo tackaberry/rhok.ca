@@ -1,19 +1,15 @@
 <!DOCTYPE html>
+
 <!--[if lt IE 7 ]> <html class="no-js ie6 ie" lang="en"> <![endif]--><!--[if IE 7 ]>    <html class="no-js ie7 ie" lang="en"> <![endif]--><!--[if IE 8 ]>    <html class="no-js ie8 ie" lang="en"> <![endif]--><!--[if IE 9 ]>    <html class="no-js ie9 ie" lang="en"> <![endif]--><!--[if (gte IE 9)|!(IE)]><!--><html class="no-js no-ie" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>RHoK #3 &#8211; June 2014  |  Random Hacks of Kindness</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="shortcut icon" href="/wp-content/themes/hackathon/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" href="/wp-content/themes/hackathon/apple-touch-icon.png">
-  
-  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js"></script>
-
-  <meta name="robots" content="max-image-preview:large">
-<link rel="dns-prefetch" href="//ajax.googleapis.com">
-<link rel="dns-prefetch" href="//api.tiles.mapbox.com">
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<meta charset="utf-8"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>RHoK Ottawa #3 (June 2014) Hackathon Projects &amp; Recap | RHoK Ottawa</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="/wp-content/themes/hackathon/favicon.ico" rel="shortcut icon"/>
+<link href="/wp-content/themes/hackathon/apple-touch-icon.png" rel="apple-touch-icon-precomposed"/>
+<link href="//ajax.googleapis.com" rel="dns-prefetch"/>
+<link href="//fonts.googleapis.com" rel="dns-prefetch"/>
 <script type="text/javascript">
 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
@@ -32,93 +28,65 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		background: none !important;
 		padding: 0 !important;
 	}</style>
-<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2" type="text/css" media="all">
+<link href="/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
 <style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
 <style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 :where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
-<link rel="stylesheet" id="wc-shortcodes-style-css" href="/wp-content/plugins/wc-shortcodes/public/assets/css/style.css?ver=3.46" type="text/css" media="all">
-<link rel="stylesheet" id="mapbox-styles-css" href="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css" type="text/css" media="all">
-<link rel="stylesheet" id="fonts-css" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=1.0" type="text/css" media="all">
-<link rel="stylesheet" id="custom-css" href="/wp-content/themes/hackathon/style.css?ver=1.201" type="text/css" media="all">
-<link rel="stylesheet" id="wordpresscanvas-font-awesome-css" href="/wp-content/plugins/wc-shortcodes/public/assets/css/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
-<script type="text/javascript" src="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js" id="mapbox-js"></script>
-<script type="text/javascript" src="/wp-content/themes/hackathon/javascripts/libs/modernizr.js" id="modernizr-js"></script>
-<script type="text/javascript" src="/wp-content/themes/hackathon/javascripts/libs/respond.min.js" id="respond-js"></script>
-<link rel="https://api.w.org/" href="/wp-json/">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<meta name="generator" content="WordPress 6.6.2">
-<link rel="canonical" href="/events/june-2014/">
-<link rel="shortlink" href="/?p=216">
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fevents%2Fjune-2014%2F">
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fevents%2Fjune-2014%2F#038;format=xml">
-</head>
+<link href="/wp-content/plugins/wc-shortcodes/public/assets/css/style.css?ver=3.46" id="wc-shortcodes-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&amp;ver=1.0" id="fonts-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/wp-content/themes/hackathon/style.css?ver=1.202" id="custom-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/wp-content/plugins/wc-shortcodes/public/assets/css/font-awesome.min.css?ver=4.7.0" id="wordpresscanvas-font-awesome-css" media="all" rel="stylesheet" type="text/css"/>
+<script id="modernizr-js" src="/wp-content/themes/hackathon/javascripts/libs/modernizr.js" type="text/javascript"></script>
+<script id="respond-js" src="/wp-content/themes/hackathon/javascripts/libs/respond.min.js" type="text/javascript"></script>
+<meta content="index, follow, max-image-preview:large" name="robots"/><meta content="RHoK Ottawa #3 (June 2014) social good hackathon (June 28 to 29, 2014 at Shopify Ottawa, Ottawa). Featured 5 civic tech projects: Mustaches for Kids, Oxfam…" name="description"/><link href="https://rhok.ca/events/june-2014/" rel="canonical"/><meta content="en_CA" property="og:locale"/><meta content="website" property="og:type"/><meta content="Random Hacks of Kindness Ottawa" property="og:site_name"/><meta content="RHoK Ottawa #3 (June 2014) Hackathon Projects &amp; Recap | RHoK Ottawa" property="og:title"/><meta content="RHoK Ottawa #3 (June 2014) social good hackathon (June 28 to 29, 2014 at Shopify Ottawa, Ottawa). Featured 5 civic tech projects: Mustaches for Kids, Oxfam…" property="og:description"/><meta content="https://rhok.ca/events/june-2014/" property="og:url"/><meta content="https://rhok.ca/wp-content/uploads/2016/04/P1000818-1400x350.jpg" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="@rhok_ottawa" name="twitter:site"/><meta content="RHoK Ottawa #3 (June 2014) Hackathon Projects &amp; Recap | RHoK Ottawa" name="twitter:title"/><meta content="RHoK Ottawa #3 (June 2014) social good hackathon (June 28 to 29, 2014 at Shopify Ottawa, Ottawa). Featured 5 civic tech projects: Mustaches for Kids, Oxfam…" name="twitter:description"/><meta content="https://rhok.ca/wp-content/uploads/2016/04/P1000818-1400x350.jpg" name="twitter:image"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Event","@id":"https://rhok.ca/events/june-2014/#event","name":"RHoK Ottawa #3 (June 2014) – Random Hacks of Kindness Hackathon","description":"RHoK Ottawa #3 (June 2014) social good hackathon (June 28 to 29, 2014 at Shopify Ottawa, Ottawa). Featured 5 civic tech projects: Mustaches for Kids, Oxfam…","startDate":"2014-06-28","endDate":"2014-06-29","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","url":"https://rhok.ca/events/june-2014/","image":["https://rhok.ca/wp-content/uploads/2016/04/P1000818-1400x350.jpg"],"location":{"@type":"Place","name":"Shopify Ottawa","address":{"@type":"PostalAddress","streetAddress":"150 Elgin Street","addressLocality":"Ottawa","addressRegion":"ON","postalCode":"","addressCountry":"CA"}},"organizer":{"@type":"Organization","name":"Random Hacks of Kindness Ottawa","url":"https://rhok.ca/"},"workFeatured":[{"@type":"CreativeWork","name":"Mustaches for Kids: Charity Fundraising Platform","url":"https://rhok.ca/projects/mustaches-for-kids/"},{"@type":"CreativeWork","name":"Oxfam Canada: 2015 Election Women's Rights Campaign Tool","url":"https://rhok.ca/projects/oxfam/"},{"@type":"CreativeWork","name":"Ladies Learning Code: Job Board Improvements (Part 2)","url":"https://rhok.ca/projects/ladies-learning-code/"},{"@type":"CreativeWork","name":"Art Engine: Makerspace Resource Reservation Tool","url":"https://rhok.ca/projects/art-engine/"},{"@type":"CreativeWork","name":"Code For Kids: Interactive Ruby Learning Platform","url":"https://rhok.ca/projects/code-for-kids/"}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://rhok.ca/"},{"@type":"ListItem","position":2,"name":"Past Events","item":"https://rhok.ca/events/"},{"@type":"ListItem","position":3,"name":"RHoK Ottawa #3 (June 2014)","item":"https://rhok.ca/events/june-2014/"}]}]}</script></head>
 <body class="event-template-default single single-event postid-216 wc-shortcodes-font-awesome-enabled">
-
-
 <header class="site-header">
-  <div class="hidden-menu">
-    <div class="container cf">
-      <div class="left">
-        <form class="slim-search" action="" method="get">
-          <input type="search" class="search-input" id="s" placeholder="Search for anything" name="s">
-          <input type="submit" value="Search">
-        </form>
-      </div>
-      <div class="right">
-                        <a href="#" class="ico ico-toggle toggle hide-second-menu">Toggle</a>
-      </div>
-    </div>
-  </div>
-  <div class="main-header">
-    <div class="container cf">
-      <div class="left cf">
-        <a href="/" class="logo">
-          <h1>Random Hacks of Kindness</h1>
-          <img src="/wp-content/uploads/2016/04/rsz_logo.png" height="245" width="877" alt="">
-        </a>
-              </div>
-      <div class="right">
-        <nav class="main-menu"><ul id="menu-main-menu" class="menu">
-<li><a href="/events">Past Events</a></li>
-<li><a href="/about/">About</a></li>
-</ul></nav>        <a href="https://twitter.com/rhok_ottawa" target="_blank" style="margin-left:20px;">
-                <img src="/wp-content/themes/hackathon/images/twitter.svg" style="width:2.5rem;vertical-align:middle;"></a>
-
-	<a href="https://www.youtube.com/channel/UCx49ToWxWeGgAFok-jqkjQQ" target="_blank" style="margin-left:10px;">
-		<img src="/wp-content/themes/hackathon/images/youtube.svg" style="width:2rem;height:1rem;vertical-align:middle;"></a>
-        	</div>
-    </div>
-  </div>
+<div class="hidden-menu">
+<div class="container cf">
+<div class="left">
+<form action="/projects/" class="slim-search" method="get">
+<input aria-label="Search hackathon projects" class="search-input" id="s" name="q" placeholder="Search 57 projects" type="search"/>
+<input type="submit" value="Search"/>
+</form>
+</div>
+<div class="right">
+<a class="ico ico-toggle toggle hide-second-menu" href="#">Toggle</a>
+</div>
+</div>
+</div>
+<div class="main-header">
+<div class="container cf">
+<div class="left cf">
+<a aria-label="Random Hacks of Kindness Ottawa Home" class="logo" href="/">
+<span class="site-title-sr">Random Hacks of Kindness Ottawa</span>
+<img alt="Random Hacks of Kindness Ottawa" height="245" src="/wp-content/uploads/2016/04/rsz_logo.png" width="877"/>
+</a>
+</div>
+<div class="right">
+<nav class="main-menu"><ul class="menu" id="menu-main-menu"><li><a href="/projects/">Projects</a></li><li class="current-menu-item active"><a aria-current="page" href="/events/">Past Events</a></li><li><a href="/about/">About</a></li></ul></nav> <a href="https://twitter.com/rhok_ottawa" style="margin-left:20px;" target="_blank">
+<img alt="RHoK Ottawa on Twitter" src="/wp-content/themes/hackathon/images/twitter.svg" style="width:2.5rem;vertical-align:middle;"/></a>
+<a href="https://www.youtube.com/channel/UCx49ToWxWeGgAFok-jqkjQQ" style="margin-left:10px;" target="_blank">
+<img alt="RHoK Ottawa on YouTube" src="/wp-content/themes/hackathon/images/youtube.svg" style="width:2rem;height:1rem;vertical-align:middle;"/></a>
+</div>
+</div>
+</div>
 </header>
-
-    <div class="intro" style="background-image: url(/wp-content/uploads/2016/04/P1000818-1400x350.jpg)">
-    <div class="container">
-      <div class="intro-content">
-        <h2>RHoK #3 &#8211; June 2014</h2>
-                    <p class="event-meta">
-                          </p>
-                  </div>
-<!-- /intro-content -->
-    </div>
-<!-- /container -->
-  </div>
-<!-- /intro -->
-
-
-<main>
-
-
-
+<div class="intro" style="background-image: url(/wp-content/uploads/2016/04/P1000818-1400x350.jpg)">
 <div class="container">
-  <img src="/wp-content/uploads/2016/04/P1000818-1.jpg">  <div class="cf">
-    <div class="main-col">
-        
-
-
-      <h2>Schedule for Friday, June 27th</h2>
+<div class="intro-content"><h1>RHoK Ottawa #3 (June 2014)</h1><p class="intro-subtitle">June 28 to 29, 2014 • Shopify Ottawa, Ottawa</p></div>
+<!-- /intro-content -->
+</div>
+<!-- /container -->
+</div>
+<!-- /intro -->
+<main>
+<div class="container"><nav aria-label="Breadcrumb" class="seo-breadcrumbs"><ol><li><a href="/">Home</a></li><li><a href="/events/">Past Events</a></li><li><span aria-current="page">RHoK Ottawa #3 (June 2014)</span></li></ol></nav><div class="inner-section" id="projects"><h2>Projects Built at RHoK Ottawa #3 (June 2014) (5)</h2><ul class="box-list full project-list cf"><li data-search="mustaches for kids charity fundraising platform mustaches for kids the goal was to build a third party fundraising platform makes it easier and much more compelling for participants great images fundraising tracking rhok ottawa 3 june 2014"><div class="box-content"><h4><a href="/projects/mustaches-for-kids/">Mustaches for Kids: Charity Fundraising Platform</a></h4><p>Mustaches For Kids: The goal was to build a third-party fundraising platform that makes it easier and much more compelling for participants — with great images, fundraising tracking &amp;…</p></div><a class="btn btn-clr" href="/projects/mustaches-for-kids/">View Project</a></li><li data-search="oxfam canada 2015 election women s rights campaign tool oxfam canada is working a coalition of organizations on putting together a common campaign calling for a national debate to be held during the 2015 elections on women s issues women s rhok ottawa 3 june 2014 melanie gallant"><div class="box-content"><h4><a href="/projects/oxfam/">Oxfam Canada: 2015 Election Women's Rights Campaign Tool</a></h4><p>Oxfam Canada is working with a coalition of organizations on putting together a common campaign calling for a national debate to be held during the 2015 elections on women’s issues/women’s…</p></div><a class="btn btn-clr" href="/projects/oxfam/">View Project</a></li><li data-search="ladies learning code job board improvements part 2 after a successful hackathon last time ladies learning code has a working job board but it still needs some work the goal is to improve what has already built rhok ottawa 3 june 2014 jane maguire"><div class="box-content"><h4><a href="/projects/ladies-learning-code/">Ladies Learning Code: Job Board Improvements (Part 2)</a></h4><p>After a successful hackathon last time, Ladies Learning Code has a working job board, but it still needs some work. The goal is to improve what has already been built.</p></div><a class="btn btn-clr" href="/projects/ladies-learning-code/">View Project</a></li><li data-search="art engine makerspace resource reservation tool hackerspace makerspace and libraries all share a common problem how do you manager reservations for limited resources right now there aren t any good open source tools to do but we can rhok ottawa 3 june 2014 britta evans"><div class="box-content"><h4><a href="/projects/art-engine/">Art Engine: Makerspace Resource Reservation Tool</a></h4><p>Hackerspace, makerspace and libraries all share a common problem: How do you manager reservations for limited resources? Right now there aren’t any good open source tools to do this, but we can…</p></div><a class="btn btn-clr" href="/projects/art-engine/">View Project</a></li><li data-search="code for kids interactive ruby learning platform build an online intro to ruby much like code school except focused exclusively on children help build out curriculum and tech stack rhok ottawa 3 june 2014 julian nadeau"><div class="box-content"><h4><a href="/projects/code-for-kids/">Code For Kids: Interactive Ruby Learning Platform</a></h4><p>Build an online intro to ruby much like code school, except focused exclusively on children. Help build out curriculum and tech stack.</p></div><a class="btn btn-clr" href="/projects/code-for-kids/">View Project</a></li></ul></div>
+<img alt="RHoK Ottawa #3 (June 2014) photo" src="/wp-content/uploads/2016/04/P1000818-1.jpg"/> <div class="cf">
+<div class="main-col">
+<h2>Schedule for Friday, June 27th</h2>
 <table class="table table-bordered table-striped">
 <thead>
 <tr>
@@ -205,183 +173,86 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 </table>
 <p><strong>Video of the presentations:</strong> <a href="https://www.youtube.com/watch?v=dZ4B4xDBvbA">https://www.youtube.com/watch?v=dZ4B4xDBvbA</a></p>
 <h2>Recap</h2>
-<p>Last weekend, June 28-29, marked Ottawa’s third instalment of Random Hacks of Kindness (RHoK) (<a href="http://rhok-ottawa.ca/" target="_blank" rel="noopener noreferrer">http://rhok-ottawa.ca/</a>).</p>
+<p>Last weekend, June 28-29, marked Ottawa’s third instalment of Random Hacks of Kindness (RHoK) (<a href="http://rhok-ottawa.ca/" rel="noopener noreferrer" target="_blank">http://rhok-ottawa.ca/</a>).</p>
 <p>The first order of business is to answer “So, what is it?”. RHoK is a hackathon for making the world a better place by developing practical, open source technology solutions to respond to some of the most complex challenges facing humanity. RHoK, an international initiative (in over 30 countries), happens concurrently twice a year in June and December. Our Ottawa chapter operates wholly on its own, while maintaining the vision and mission of the global organization.</p>
-<p><a href="http://www.bv02.com/wp-content/uploads/2014/07/thumbnail-2.jpg"><img fetchpriority="high" decoding="async" class="alignnone size-full wp-image-3875" src="http://www.bv02.com/wp-content/uploads/2014/07/thumbnail-2.jpg" alt="" width="700" height="525"></a></p>
+<p><a href="http://www.bv02.com/wp-content/uploads/2014/07/thumbnail-2.jpg"><img alt="RHoK Ottawa #3 (June 2014) photo" class="alignnone size-full wp-image-3875" decoding="async" fetchpriority="high" height="525" src="http://www.bv02.com/wp-content/uploads/2014/07/thumbnail-2.jpg" width="700"/></a></p>
 <p>Now before I dive into how it works, I want to venture an important point of clarification for hackathons: it’s not just for developers. In fact, many hackathons welcome and actually need a diverse group of individuals. For example, at RHoK this weekend, we had developers of all types, graphic designers, UX designers, community managers and an anesthesiologist. Of course there are also the organizations that benefit. Everyone is welcome.</p>
 <p>What’s really exciting about RHoK is that we pair participants with real organizations that have real challenges. As a result, it’s a great environment…but there is a lot that goes into the event. Recruiting organizations is actually tougher than it sounds. While they get the benefit of collaborating with bright and talented minds, simply providing a venue and people aren’t enough. The organizations need to generate a project that fits the bill. The project or objective must: have a clear problem and direction but still leave lots of room for creative problem solving; be able to be solved in a weekend; be applicable on a larger scale to other organizations; and, be engaging and rewarding to the participants — the organizations tend to be one of the key selling features in getting participants to join.</p>
 <p>We’ve yet to have any real problems in finding participants as we’ve sold out in June and last December. But, that’s in no small part due to the outreach we do and the great opportunity we are creating for people. We reach out to a host of developer groups across the city, encourage past participants to join, post on our professional and corporate networks, and rely on the participating organizations to also spread the word.</p>
-<p><a href="http://www.bv02.com/wp-content/uploads/2014/07/thumbnail-1.jpg"><img decoding="async" class="alignnone size-full wp-image-3874" src="http://www.bv02.com/wp-content/uploads/2014/07/thumbnail-1.jpg" alt="" width="700" height="525"></a></p>
+<p><a href="http://www.bv02.com/wp-content/uploads/2014/07/thumbnail-1.jpg"><img alt="RHoK Ottawa #3 (June 2014) photo" class="alignnone size-full wp-image-3874" decoding="async" height="525" src="http://www.bv02.com/wp-content/uploads/2014/07/thumbnail-1.jpg" width="700"/></a></p>
 <p>Participation costs $5 and the reason for charging this amount is really only to encourage attendance if you register. To put this in perspective, and thanks to the many sponsors who contributed, RHoK participants ate like kings all weekend for that $5. Not to mention, they got some pretty sweet laser-etched mason jars as a take-away.</p>
-<p>This year we capped out at 45 participants. On the organization side, we had <a href="http://www.oxfam.ca/" target="_blank" rel="noopener noreferrer">Oxfam</a> <a href="http://www.amnesty.ca/" target="_blank" rel="noopener noreferrer">Amnesty</a> <a href="http://codeforkids.ca/" target="_blank" rel="noopener noreferrer">Code for Kids</a> <a href="http://www.artengine.ca/" target="_blank" rel="noopener noreferrer">Art Engine</a> <a href="http://ladieslearningcode.com/" target="_blank" rel="noopener noreferrer">Ladies Learning Code</a> and <a href="http://m4kottawa.org/" target="_blank" rel="noopener noreferrer">Mustaches for Kids</a>. The projects included:</p>
-
-
-
-        
-    </div>
+<p>This year we capped out at 45 participants. On the organization side, we had <a href="http://www.oxfam.ca/" rel="noopener noreferrer" target="_blank">Oxfam</a> <a href="http://www.amnesty.ca/" rel="noopener noreferrer" target="_blank">Amnesty</a> <a href="http://codeforkids.ca/" rel="noopener noreferrer" target="_blank">Code for Kids</a> <a href="http://www.artengine.ca/" rel="noopener noreferrer" target="_blank">Art Engine</a> <a href="http://ladieslearningcode.com/" rel="noopener noreferrer" target="_blank">Ladies Learning Code</a> and <a href="http://m4kottawa.org/" rel="noopener noreferrer" target="_blank">Mustaches for Kids</a>. The projects included:</p>
+</div>
 <!-- /main-col -->
-
-
-
-    <div class="sidebar">
-              <div class="group times">
-        Saturday, June 28, 2014 to <br>Sunday, June 29, 2014        </div>
-      
-      
-               	 <div class="group event-sponsor">
-          <h3>Other Events</h3>
+<div class="sidebar">
+<div class="group times"><strong>Shopify Ottawa</strong><br/>150 Elgin Street, Ottawa, ON<br/>June 28 to 29, 2014</div><div class="group buttons"><a class="btn" href="/projects/">Browse All 57 Projects</a></div>
+<div class="group event-sponsor">
+<h3>Other Events</h3>
 <ul class="event-locations">
-	      
-          <li>
-            <a href="/events/rhok-11-october-25-26-27-2019/" title="RHoK #11 – October 2019">
-              <span>RHoK #11 – October 2019</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/rhok-10-april-26-27-28-2019/" title="RHoK #10 &#8211; April 2019">
-              <span>RHoK #10 &#8211; April 2019</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/rhok-9/" title="RHoK #9 &#8211; October 2018">
-              <span>RHoK #9 &#8211; October 2018</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/rhok-8/" title="RHoK #8 &#8211; April 2018">
-              <span>RHoK #8 &#8211; April 2018</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/rhok-7-october-2017/" title="RHoK #7 – October 2017">
-              <span>RHoK #7 – October 2017</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/rhok-6/" title="RHoK #6 – March 2017">
-              <span>RHoK #6 – March 2017</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/june-2016/" title="RHoK #5 &#8211; June 2016">
-              <span>RHoK #5 &#8211; June 2016</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/june-2015/" title="RHoK #4 &#8211; June 2015">
-              <span>RHoK #4 &#8211; June 2015</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/june-2014/" title="RHoK #3 &#8211; June 2014">
-              <span>RHoK #3 &#8211; June 2014</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/rhok-ottawa-2-december-2013/" title="RHoK #2 &#8211; December 2013">
-              <span>RHoK #2 &#8211; December 2013</span>
-            </a>
-          </li>
-              
-          <li>
-            <a href="/events/rhok1-june-2013/" title="RHoK #1 &#8211; June 2013">
-              <span>RHoK #1 &#8211; June 2013</span>
-            </a>
-          </li>
-                </ul>
-	</div>
-	
-    </div>
+<li>
+<a href="/events/rhok-11-october-25-26-27-2019/" title="RHoK #11 – October 2019">
+<span>RHoK #11 – October 2019</span>
+</a>
+</li>
+<li>
+<a href="/events/rhok-10-april-26-27-28-2019/" title="RHoK #10 – April 2019">
+<span>RHoK #10 – April 2019</span>
+</a>
+</li>
+<li>
+<a href="/events/rhok-9/" title="RHoK #9 – October 2018">
+<span>RHoK #9 – October 2018</span>
+</a>
+</li>
+<li>
+<a href="/events/rhok-8/" title="RHoK #8 – April 2018">
+<span>RHoK #8 – April 2018</span>
+</a>
+</li>
+<li>
+<a href="/events/rhok-7-october-2017/" title="RHoK #7 – October 2017">
+<span>RHoK #7 – October 2017</span>
+</a>
+</li>
+<li>
+<a href="/events/rhok-6/" title="RHoK #6 – March 2017">
+<span>RHoK #6 – March 2017</span>
+</a>
+</li>
+<li>
+<a href="/events/june-2016/" title="RHoK #5 – June 2016">
+<span>RHoK #5 – June 2016</span>
+</a>
+</li>
+<li>
+<a href="/events/june-2015/" title="RHoK #4 – June 2015">
+<span>RHoK #4 – June 2015</span>
+</a>
+</li>
+<li>
+<a href="/events/june-2014/" title="RHoK #3 – June 2014">
+<span>RHoK #3 – June 2014</span>
+</a>
+</li>
+<li>
+<a href="/events/rhok-ottawa-2-december-2013/" title="RHoK #2 – December 2013">
+<span>RHoK #2 – December 2013</span>
+</a>
+</li>
+<li>
+<a href="/events/rhok1-june-2013/" title="RHoK #1 – June 2013">
+<span>RHoK #1 – June 2013</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
 <!-- /sidebar -->
-  </div>
+</div>
 <!-- /cf -->
-
-
-    <div class="inner-section" id="projects">
-    <h2>Projects</h2>
-    <ul class="box-list full project-list">
-              <li>
-        <div class="box-content">
-          <h4><a href="/projects/mustaches-for-kids/">Mustaches for Kids</a></h4>
-          <p>Mustaches For Kids: The goal was to build a third-party fundraising platform that makes it easier and much more compelling for participants — with great images, fundraising tracking &amp; analytics,&#8230;</p>
-          <footer>
-                          
-                              <h5>Event</h5>
-                <p>RHoK #3 - June 2014</p>
-               
-          </footer>
-        </div>
-        <a href="/projects/mustaches-for-kids/" class="btn btn-clr">View Project</a>      </li>
-
-              <li>
-        <div class="box-content">
-          <h4><a href="/projects/oxfam/">Oxfam</a></h4>
-          <p>Oxfam Canada is working with a coalition of organizations on putting together a common campaign calling for a national debate to be held during the 2015 elections on women’s issues/women’s&#8230;</p>
-          <footer>
-                          
-                              <h5>Event</h5>
-                <p>RHoK #3 - June 2014</p>
-               
-          </footer>
-        </div>
-        <a href="/projects/oxfam/" class="btn btn-clr">View Project</a>      </li>
-
-              <li>
-        <div class="box-content">
-          <h4><a href="/projects/ladies-learning-code/">Ladies Learning Code</a></h4>
-          <p>After a successful hackathon last time, Ladies Learning Code has a working job board, but it still needs some work. The goal is to improve what has already been built.</p>
-          <footer>
-                          
-                              <h5>Event</h5>
-                <p>RHoK #3 - June 2014</p>
-               
-          </footer>
-        </div>
-        <a href="/projects/ladies-learning-code/" class="btn btn-clr">View Project</a>      </li>
-
-              <li>
-        <div class="box-content">
-          <h4><a href="/projects/art-engine/">Art Engine</a></h4>
-          <p>Hackerspace, makerspace and libraries all share a common problem: How do you manager reservations for limited resources? Right now there aren&#8217;t any good open source tools to do this, but&#8230;</p>
-          <footer>
-                          
-                              <h5>Event</h5>
-                <p>RHoK #3 - June 2014</p>
-               
-          </footer>
-        </div>
-        <a href="/projects/art-engine/" class="btn btn-clr">View Project</a>      </li>
-
-              <li>
-        <div class="box-content">
-          <h4><a href="/projects/code-for-kids/">Code For Kids</a></h4>
-          <p>Build an online intro to ruby much like code school, except focused exclusively on children. Help build out curriculum and tech stack.</p>
-          <footer>
-                          
-                              <h5>Event</h5>
-                <p>RHoK #3 - June 2014</p>
-               
-          </footer>
-        </div>
-        <a href="/projects/code-for-kids/" class="btn btn-clr">View Project</a>      </li>
-
-        </ul>
-  </div>
-  
-     <div class="photo-gallery-container">
-
-
-  <!-- Image Gallery -->
-    <style>main > .container:first-child{
+<div class="photo-gallery-container">
+<!-- Image Gallery -->
+<style>main > .container:first-child{
       padding-top: 10px!important;
     }
     .photo-gallery-container{
@@ -414,10 +285,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     .photo-gallery img:hover{
       cursor:pointer;
     }</style>
-    
-
-    <section class="photo-gallery"><img class="photo photo-featured" src="/wp-content/uploads/2016/04/P1000803.jpg"><img class="photo" src="/wp-content/uploads/2016/04/P1000806.jpg"><img class="photo" src="/wp-content/uploads/2016/04/P1000810-1.jpg"><img class="photo" src="/wp-content/uploads/2016/04/P1000818-1.jpg"><img class="photo" src="/wp-content/uploads/2016/04/P1000847.jpg"><img class="photo" src="/wp-content/uploads/2016/04/P1000849.jpg">
-    <script>var container = document.querySelector('.photo-gallery');
+<section class="photo-gallery"><img alt="RHoK Ottawa #3 (June 2014) photo" class="photo photo-featured" src="/wp-content/uploads/2016/04/P1000803.jpg"/><img alt="RHoK Ottawa #3 (June 2014) photo" class="photo" src="/wp-content/uploads/2016/04/P1000806.jpg"/><img alt="RHoK Ottawa #3 (June 2014) photo" class="photo" src="/wp-content/uploads/2016/04/P1000810-1.jpg"/><img alt="RHoK Ottawa #3 (June 2014) photo" class="photo" src="/wp-content/uploads/2016/04/P1000818-1.jpg"/><img alt="RHoK Ottawa #3 (June 2014) photo" class="photo" src="/wp-content/uploads/2016/04/P1000847.jpg"/><img alt="RHoK Ottawa #3 (June 2014) photo" class="photo" src="/wp-content/uploads/2016/04/P1000849.jpg"/>
+<script>var container = document.querySelector('.photo-gallery');
     var photos = container.querySelectorAll('.photo');
     document.body.addEventListener('click', function(e){
       if(e.target.classList.contains('photo')){
@@ -430,58 +299,48 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     //   var rand = Math.floor(Math.random() * (photos.length - 1)) + 0  ;
     //   container.querySelector('.photo-featured').src = photos[rand].src;
     // }, 3000);</script>
-
-
-
 </section>
 </div>
-      
-    <div class="inner-section event-sponsors">
-    <h2>Sponsors &amp; Partners</h2>
-    <img src="/wp-content/uploads/2016/04/bv02_colour_basic-1-160x63.jpg" alt=""><img src="/wp-content/uploads/2016/04/12-dot-logo-1-160x160.jpg" alt=""><img src="/wp-content/uploads/2016/04/labottega-160x107.png" alt=""><img src="/wp-content/uploads/2016/04/shopify-160x48.png" alt=""><img src="/wp-content/uploads/2016/04/lonestar-160x89.png" alt=""><img src="/wp-content/uploads/2016/04/whalesbone_logo-160x70.png" alt="">  </div>
-  
+<div class="inner-section event-sponsors">
+<h2>Sponsors &amp; Partners</h2>
+<img alt="RHoK Ottawa #3 (June 2014) photo" src="/wp-content/uploads/2016/04/bv02_colour_basic-1-160x63.jpg"/><img alt="RHoK Ottawa #3 (June 2014) photo" src="/wp-content/uploads/2016/04/12-dot-logo-1-160x160.jpg"/><img alt="RHoK Ottawa #3 (June 2014) photo" src="/wp-content/uploads/2016/04/labottega-160x107.png"/><img alt="RHoK Ottawa #3 (June 2014) photo" src="/wp-content/uploads/2016/04/shopify-160x48.png"/><img alt="RHoK Ottawa #3 (June 2014) photo" src="/wp-content/uploads/2016/04/lonestar-160x89.png"/><img alt="RHoK Ottawa #3 (June 2014) photo" src="/wp-content/uploads/2016/04/whalesbone_logo-160x70.png"/> </div>
 </div>
 <!-- /container -->
-
 </main>
 <footer class="cf site-footer">
-  <div class="container">
-    <div class="left third">
-      <p>&copy;2014 Random Hacks of Kindness</p>
-    </div>
-    <div class="middle third">
-      <div class="share">
-    	<a href="https://twitter.com/rhok_ottawa" class="tweet-link"><i class="ico ico-twbird">Twitter</i> #rhok</a>
-	    </div>
-    </div>
-        <div class="right third">
-            <p><a href="mailto:info@rhok.ca"><img src="/wp-content/themes/hackathon/images/email.png"> info@rhok.ca</a></p>
-          </div>
-    <nav class="footer-menu"><li><a href="/events">Past Events</a></li>
-<li><a href="/about/">About</a></li>
-</nav>  </div>
+<div class="container">
+<div class="left third">
+<p>©2014 Random Hacks of Kindness</p>
+</div>
+<div class="middle third">
+<div class="share">
+<a class="tweet-link" href="https://twitter.com/rhok_ottawa"><i class="ico ico-twbird">Twitter</i> #rhok</a>
+</div>
+</div>
+<div class="right third">
+<p><a href="mailto:info@rhok.ca"><img alt="Email" src="/wp-content/themes/hackathon/images/email.png"/> info@rhok.ca</a></p>
+</div>
+<nav class="footer-menu"><li><a href="/projects/">Projects</a></li><li class="active"><a aria-current="page" href="/events/">Past Events</a></li><li><a href="/blog/">Blog</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></nav> </div>
 </footer>
-
 <script>var _gaq=[['_setAccount','UA-34745862-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));</script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" id="jquery-js"></script>
-<script type="text/javascript" src="/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
-<script type="text/javascript" src="/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
-<script type="text/javascript" src="/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
-<script type="text/javascript" id="wc-shortcodes-rsvp-js-extra">
+<script id="jquery-js" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script id="imagesloaded-js" src="/wp-includes/js/imagesloaded.min.js?ver=5.0.0" type="text/javascript"></script>
+<script id="masonry-js" src="/wp-includes/js/masonry.min.js?ver=4.2.2" type="text/javascript"></script>
+<script id="jquery-masonry-js" src="/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" type="text/javascript"></script>
+<script id="wc-shortcodes-rsvp-js-extra" type="text/javascript">
 /* <![CDATA[ */
 var WCShortcodes = {"ajaxurl":"\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/wp-content/plugins/wc-shortcodes/public/assets/js/rsvp.js?ver=3.46" id="wc-shortcodes-rsvp-js"></script>
-<script type="text/javascript" src="/wp-content/themes/hackathon/javascripts/libs/timeago.js" id="timeago-js"></script>
-<script type="text/javascript" src="/wp-content/themes/hackathon/javascripts/libs/md5.js" id="md5-js"></script>
-<script type="text/javascript" src="/wp-content/themes/hackathon/javascripts/libs/jquery.fitvids.js" id="fitvids-js"></script>
-<script type="text/javascript" src="/wp-content/themes/hackathon/javascripts/libs/tiptip.js" id="tooltip-js"></script>
-<script type="text/javascript" src="/wp-content/themes/hackathon/javascripts/libs/jquery.validate.min.js" id="form-validator-js"></script>
-<script type="text/javascript" src="/wp-content/themes/hackathon/javascripts/all.js?ver=1.201" id="all-js"></script>
-
+<script id="wc-shortcodes-rsvp-js" src="/wp-content/plugins/wc-shortcodes/public/assets/js/rsvp.js?ver=3.46" type="text/javascript"></script>
+<script id="timeago-js" src="/wp-content/themes/hackathon/javascripts/libs/timeago.js" type="text/javascript"></script>
+<script id="md5-js" src="/wp-content/themes/hackathon/javascripts/libs/md5.js" type="text/javascript"></script>
+<script id="fitvids-js" src="/wp-content/themes/hackathon/javascripts/libs/jquery.fitvids.js" type="text/javascript"></script>
+<script id="tooltip-js" src="/wp-content/themes/hackathon/javascripts/libs/tiptip.js" type="text/javascript"></script>
+<script id="form-validator-js" src="/wp-content/themes/hackathon/javascripts/libs/jquery.validate.min.js" type="text/javascript"></script>
+<script id="all-js" src="/wp-content/themes/hackathon/javascripts/all.js?ver=1.201" type="text/javascript"></script>
 </body>
 </html>
